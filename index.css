@@ -1,0 +1,53 @@
+/* Estilos generales del body */
+body {
+    background-color: #0ED4E3 !important;
+    overflow-x: hidden;
+}
+
+/* Ajustes de contenedor */
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Estilo principal */
+main {
+    flex: 1 0 auto;
+}
+
+/* Imagen de colombia */
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/colombia-landscape.jpg");
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+}
+
+/* Estilo para el logo de Colombia */
+.logo-colombia {
+    width: 3vw;
+    height: 7vh;
+    object-fit: cover;
+}
+
+/* Contenedor de departamentos */
+#contenedorDepartamentos {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Estilo para la tarjeta de detalles */
+.detailcard {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/colombia.jpg");
+    border-radius: 10px;
+    object-fit: cover;
+    position: relative;
+}
+
+/* Estilo del footer */
+footer {
+    flex-shrink: 0;
+}
